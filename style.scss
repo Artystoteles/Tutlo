@@ -78,7 +78,7 @@ button {
   }
   &__left {
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
     gap: 4rem;
@@ -135,7 +135,7 @@ button {
   &__right {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-start;
     width: 30%;
     @media (max-width: 1250px) {
       width: 80%;
