@@ -171,12 +171,12 @@ button {
     }
   }
   &__iconsContainer {
-    button {
-      margin: 0 1rem;
-    }
     @media (max-width: 600px) {
       display: none;
     }
+  }
+  &__iconButton {
+    margin: 0 1rem;
   }
   &__menu {
     position: relative;
