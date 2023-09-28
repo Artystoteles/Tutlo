@@ -1,7 +1,7 @@
-const menu = document.querySelector(".navbar_menu");
-const stripe = document.querySelector(".navbar_stripe");
-const popup = document.querySelector(".hero_menu");
-const closeButton = document.querySelector(".hero_closeButton");
+const menu = document.querySelector(".navbar__menu");
+const stripe = document.querySelector(".navbar__stripe");
+const popup = document.querySelector(".hero__menu");
+const closeButton = document.querySelector(".hero__closeButton");
 
 const swiper = new Swiper(".swiper", {
   // Optional parameters
@@ -26,8 +26,8 @@ const swiper = new Swiper(".swiper", {
 });
 
 menu.addEventListener("click", function () {
-  popup.classList.toggle("hero_menu--active");
+  popup.classList.toggle("hero__menu--active");
 });
 closeButton.addEventListener("click", function () {
-  popup.classList.remove("hero_menu--active");
+  popup.classList.remove("hero__menu--active");
 });
